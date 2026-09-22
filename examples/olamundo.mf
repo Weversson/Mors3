@@ -1,0 +1,7 @@
+// Este é um comentário. Todo texto após // é ignorado pelo compilador.
+// Compile com: .venv/bin/python mfcc.py examples/olamundo.mf
+
+Ola mundo! Eu falo em Morse agora.
+Tem acentos que viram letras normais: ção e números 1 2 3.
+PONTUACAO . , ? ! ( ) : ; + - = / " @ $ &
+RAIO-X SOS ... // Tambem da para escrever sinais literais.

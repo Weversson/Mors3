@@ -1,0 +1,4 @@
+tom 750.5;
+velocidade 18;
+mensagem aviso = "ATENCAO";
+emitir aviso + " 123";

@@ -1,0 +1,2 @@
+mensagem eco = "OI";
+emitir eco * 3;

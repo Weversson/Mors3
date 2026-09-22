@@ -1,0 +1,18 @@
+# Diretórios locais
+.agents/
+.codex/
+
+# Dependências e código gerado
+.venv/
+tools/
+generated/
+gerado/
+.antlr/
+
+# Caches e saídas de execução
+__pycache__/
+*.pyc
+*.interp
+*.tokens
+*.morse
+*.wav

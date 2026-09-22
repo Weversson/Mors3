@@ -1,0 +1,5 @@
+// Uma mensagem curta para teste.
+mensagem alerta = "SOS";
+tom 600.0;
+velocidade 20;
+emitir (alerta + " AJUDA") * 2;
