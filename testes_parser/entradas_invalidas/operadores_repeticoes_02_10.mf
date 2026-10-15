@@ -1,0 +1,2 @@
+// Caso de sintaxe: operadores, repeticoes_02_10.
+emitir "Olá" * * TOM;

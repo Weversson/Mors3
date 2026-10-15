@@ -1,0 +1,2 @@
+// Caso de sintaxe: operadores, soma_repeticao_03_02.
+emitir "//" + * "Olá";

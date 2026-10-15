@@ -1,0 +1,2 @@
+// Caso de sintaxe: repeticao_operando, 02_04.
+emitir "Olá" * ();

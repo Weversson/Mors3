@@ -1,0 +1,2 @@
+// Caso de sintaxe: concatenacao, 04_05.
+emitir "() + * ;" + "😀";

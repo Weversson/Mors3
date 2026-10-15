@@ -1,0 +1,2 @@
+// Caso de sintaxe: concatenacao, 06_07.
+emitir alerta + _;

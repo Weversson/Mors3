@@ -1,0 +1,2 @@
+// Caso de sintaxe: operando_ausente, sem_direita_repeticao_06.
+emitir alerta *;

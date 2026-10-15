@@ -1,0 +1,2 @@
+// Caso de sintaxe: falta_operador, 02_05.
+emitir "Olá" "😀";

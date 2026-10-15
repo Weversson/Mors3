@@ -1,0 +1,2 @@
+// Caso de sintaxe: operadores, repeticoes_10_05.
+emitir TOM * * "😀";

@@ -1,0 +1,2 @@
+// Caso de sintaxe: operadores, soma_repeticao_01_10.
+emitir "SOS" + * TOM;

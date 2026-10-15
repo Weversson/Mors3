@@ -1,0 +1,3 @@
+// Caso de sintaxe: erro_apos_prefixo_valido, operador_1.
+emitir "SOS";
+emitir * "A";

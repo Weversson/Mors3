@@ -1,0 +1,2 @@
+// Caso de sintaxe: precedencia, 09_03_esquerda_0.
+emitir mensagem_extra * 0 + "//";

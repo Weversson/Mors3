@@ -1,0 +1,28 @@
+{
+  "ast": {
+    "tipo": "Programa",
+    "comandos": [
+      {
+        "tipo": "Emissao",
+        "expressao": {
+          "tipo": "Concatenacao",
+          "esquerda": {
+            "tipo": "Referencia",
+            "nome": "TOM"
+          },
+          "direita": {
+            "tipo": "Repeticao",
+            "texto": {
+              "tipo": "Texto",
+              "valor": "//"
+            },
+            "quantidade": {
+              "tipo": "Numero",
+              "lexema": "0010"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

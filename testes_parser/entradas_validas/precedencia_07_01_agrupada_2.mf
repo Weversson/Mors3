@@ -1,0 +1,2 @@
+// Caso de sintaxe: precedencia, 07_01_agrupada_2.
+emitir (_ + "SOS") * 2;

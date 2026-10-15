@@ -1,0 +1,2 @@
+// Caso de sintaxe: ordem_comandos, t.
+tom 600;

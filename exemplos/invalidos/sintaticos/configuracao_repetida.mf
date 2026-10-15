@@ -1,0 +1,3 @@
+tom 600;
+tom 700;
+emitir "SOS";

@@ -1,0 +1,2 @@
+// Caso de sintaxe: falta_operador, 09_10.
+emitir mensagem_extra TOM;

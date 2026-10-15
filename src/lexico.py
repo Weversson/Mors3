@@ -37,10 +37,16 @@ class _FalhaNoPrimeiroErro(ErrorListener):
         raise ErroLexico(line, column + 1, msg)
 
 
-def analisar(texto: str) -> list[TokenInfo]:
+def criar_lexer(texto: str) -> MorseLang:
+    """Cria um lexer que interrompe a análise no primeiro erro léxico."""
     lexer = MorseLang(InputStream(texto))
     lexer.removeErrorListeners()
     lexer.addErrorListener(_FalhaNoPrimeiroErro())
+    return lexer
+
+
+def analisar(texto: str) -> list[TokenInfo]:
+    lexer = criar_lexer(texto)
 
     resultado = []
     while True:

@@ -1,0 +1,2 @@
+// Caso de sintaxe: parenteses, falta_fechar_02.
+emitir (("A");

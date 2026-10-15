@@ -1,0 +1,2 @@
+// Caso de sintaxe: atomo, 03.
+emitir "//";

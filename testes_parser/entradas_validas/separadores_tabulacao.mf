@@ -1,0 +1,1 @@
+mensagem	aviso	=	"Olá // mundo"	;	tom	600.5	;	velocidade	20	;	emitir	(	aviso	+	"!"	)	*	2	;

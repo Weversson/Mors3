@@ -1,0 +1,2 @@
+// Caso de sintaxe: concatenacao, 08_09.
+emitir a1 + mensagem_extra;

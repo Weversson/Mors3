@@ -1,0 +1,2 @@
+emitir "SOS";
+mensagem alerta = "AJUDA";

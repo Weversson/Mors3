@@ -1,0 +1,2 @@
+// Caso de sintaxe: identificador, emitir_extra.
+mensagem emitir_extra = "A"; emitir emitir_extra;

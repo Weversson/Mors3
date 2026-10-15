@@ -1,0 +1,2 @@
+// Caso de sintaxe: concatenacao, 08_03.
+emitir a1 + "//";

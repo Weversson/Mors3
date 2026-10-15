@@ -1,0 +1,2 @@
+// Caso de sintaxe: configuracao_operando, velocidade_b08eab77.
+velocidade "600"; emitir "A";

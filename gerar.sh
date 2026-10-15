@@ -10,3 +10,6 @@ touch "$PROJETO_DIR/gerado/__init__.py"
 cd "$PROJETO_DIR/gramatica"
 java -jar "../tools/antlr-$ANTLR_VERSION-complete.jar" \
     -Dlanguage=Python3 -o ../gerado MorseLang.g4
+java -jar "../tools/antlr-$ANTLR_VERSION-complete.jar" \
+    -Dlanguage=Python3 -visitor -no-listener -lib ../gerado \
+    -o ../gerado MorseLangParser.g4

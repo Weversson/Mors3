@@ -1,0 +1,3 @@
+// Caso de sintaxe: volume_declaracoes, 1.
+mensagem m0 = "A";
+emitir m0;

@@ -1,0 +1,2 @@
+// Caso de sintaxe: operadores, atribuicao_01_07.
+emitir "SOS" = _;

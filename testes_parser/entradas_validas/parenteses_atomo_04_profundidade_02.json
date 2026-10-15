@@ -1,0 +1,14 @@
+{
+  "ast": {
+    "tipo": "Programa",
+    "comandos": [
+      {
+        "tipo": "Emissao",
+        "expressao": {
+          "tipo": "Texto",
+          "valor": "() + * ;"
+        }
+      }
+    ]
+  }
+}

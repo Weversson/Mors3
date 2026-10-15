@@ -1,0 +1,2 @@
+// Caso de sintaxe: configuracoes_numericas, 15.
+tom 000600; velocidade 0; emitir "E";

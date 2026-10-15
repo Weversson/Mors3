@@ -1,0 +1,12 @@
+// Caso de sintaxe: preambulo_longo, mmmtmmmmeee.
+mensagem m0 = "M0";
+mensagem m1 = "M1";
+mensagem m2 = "M2";
+tom 600;
+mensagem m4 = "M4";
+mensagem m5 = "M5";
+mensagem m6 = "M6";
+mensagem m7 = "M7";
+emitir "SOS";
+emitir "SOS";
+emitir "SOS";

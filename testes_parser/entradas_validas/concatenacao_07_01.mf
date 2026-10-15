@@ -1,0 +1,2 @@
+// Caso de sintaxe: concatenacao, 07_01.
+emitir _ + "SOS";

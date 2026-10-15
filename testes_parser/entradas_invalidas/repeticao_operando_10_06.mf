@@ -1,0 +1,2 @@
+// Caso de sintaxe: repeticao_operando, 10_06.
+emitir TOM * *;

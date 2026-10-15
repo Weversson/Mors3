@@ -1,0 +1,2 @@
+// Caso de sintaxe: precedencia, 07_06_direita_0.
+emitir _ + alerta * 0;

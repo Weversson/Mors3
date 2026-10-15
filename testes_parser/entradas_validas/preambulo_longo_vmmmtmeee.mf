@@ -1,0 +1,10 @@
+// Caso de sintaxe: preambulo_longo, vmmmtmeee.
+velocidade 20;
+mensagem m1 = "M1";
+mensagem m2 = "M2";
+mensagem m3 = "M3";
+tom 600;
+mensagem m5 = "M5";
+emitir "SOS";
+emitir "SOS";
+emitir "SOS";

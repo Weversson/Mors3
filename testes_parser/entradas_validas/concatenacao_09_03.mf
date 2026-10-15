@@ -1,0 +1,2 @@
+// Caso de sintaxe: concatenacao, 09_03.
+emitir mensagem_extra + "//";

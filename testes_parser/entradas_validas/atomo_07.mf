@@ -1,0 +1,2 @@
+// Caso de sintaxe: atomo, 07.
+emitir _;

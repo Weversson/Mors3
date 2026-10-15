@@ -1,0 +1,21 @@
+{
+  "ast": {
+    "tipo": "Programa",
+    "comandos": [
+      {
+        "tipo": "Emissao",
+        "expressao": {
+          "tipo": "Concatenacao",
+          "esquerda": {
+            "tipo": "Referencia",
+            "nome": "mensagem_extra"
+          },
+          "direita": {
+            "tipo": "Texto",
+            "valor": "() + * ;"
+          }
+        }
+      }
+    ]
+  }
+}

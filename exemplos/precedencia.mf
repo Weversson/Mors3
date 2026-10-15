@@ -1,0 +1,3 @@
+// A repetição se aplica primeiro a "B". Os parênteses mudam o agrupamento.
+emitir "A" + "B" * 2;
+emitir ("A" + "B") * 2;

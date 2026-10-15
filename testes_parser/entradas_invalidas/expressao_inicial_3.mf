@@ -1,0 +1,2 @@
+// Caso de sintaxe: expressao_inicial, 3.
+emitir mensagem;

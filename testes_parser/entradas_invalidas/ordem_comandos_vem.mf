@@ -1,0 +1,4 @@
+// Caso de sintaxe: ordem_comandos, vem.
+velocidade 20;
+emitir "SOS";
+mensagem m2 = "M2";

@@ -1,0 +1,2 @@
+// Caso de sintaxe: operadores, repeticoes_09_10.
+emitir mensagem_extra * * TOM;

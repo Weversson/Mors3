@@ -1,0 +1,2 @@
+// Caso de sintaxe: falta_operador, 10_07.
+emitir TOM _;

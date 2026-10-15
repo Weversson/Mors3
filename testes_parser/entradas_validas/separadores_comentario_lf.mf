@@ -1,0 +1,20 @@
+mensagem // comentário
+aviso // comentário
+= // comentário
+"Olá // mundo" // comentário
+; // comentário
+tom // comentário
+600.5 // comentário
+; // comentário
+velocidade // comentário
+20 // comentário
+; // comentário
+emitir // comentário
+( // comentário
+aviso // comentário
++ // comentário
+"!" // comentário
+) // comentário
+* // comentário
+2 // comentário
+;

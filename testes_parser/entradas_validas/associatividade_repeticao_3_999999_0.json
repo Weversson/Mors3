@@ -1,0 +1,28 @@
+{
+  "ast": {
+    "tipo": "Programa",
+    "comandos": [
+      {
+        "tipo": "Emissao",
+        "expressao": {
+          "tipo": "Repeticao",
+          "texto": {
+            "tipo": "Repeticao",
+            "texto": {
+              "tipo": "Texto",
+              "valor": "//"
+            },
+            "quantidade": {
+              "tipo": "Numero",
+              "lexema": "999999"
+            }
+          },
+          "quantidade": {
+            "tipo": "Numero",
+            "lexema": "0"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+// Caso de sintaxe: atomo, 09.
+emitir mensagem_extra;

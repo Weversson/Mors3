@@ -1,0 +1,2 @@
+// Caso de sintaxe: operadores, somas_07_06.
+emitir _ + + alerta;

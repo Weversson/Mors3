@@ -1,0 +1,5 @@
+// Caso de sintaxe: ordem_comandos, teev.
+tom 600;
+emitir "SOS";
+emitir "SOS";
+velocidade 20;

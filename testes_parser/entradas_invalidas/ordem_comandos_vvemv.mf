@@ -1,0 +1,6 @@
+// Caso de sintaxe: ordem_comandos, vvemv.
+velocidade 20;
+velocidade 20;
+emitir "SOS";
+mensagem m3 = "M3";
+velocidade 20;

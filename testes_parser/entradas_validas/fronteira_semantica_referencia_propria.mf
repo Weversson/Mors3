@@ -1,0 +1,2 @@
+// Caso de sintaxe: fronteira_semantica, referencia_propria.
+mensagem a = a; emitir a;

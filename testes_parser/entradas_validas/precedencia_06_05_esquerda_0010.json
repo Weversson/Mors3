@@ -1,0 +1,28 @@
+{
+  "ast": {
+    "tipo": "Programa",
+    "comandos": [
+      {
+        "tipo": "Emissao",
+        "expressao": {
+          "tipo": "Concatenacao",
+          "esquerda": {
+            "tipo": "Repeticao",
+            "texto": {
+              "tipo": "Referencia",
+              "nome": "alerta"
+            },
+            "quantidade": {
+              "tipo": "Numero",
+              "lexema": "0010"
+            }
+          },
+          "direita": {
+            "tipo": "Texto",
+            "valor": "😀"
+          }
+        }
+      }
+    ]
+  }
+}

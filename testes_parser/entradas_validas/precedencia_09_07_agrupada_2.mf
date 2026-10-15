@@ -1,0 +1,2 @@
+// Caso de sintaxe: precedencia, 09_07_agrupada_2.
+emitir (mensagem_extra + _) * 2;

@@ -1,0 +1,7 @@
+// Configurações podem aparecer em ambas as ordens, entre as mensagens.
+velocidade 18;
+mensagem chamada = "SOS";
+tom 750.5;
+mensagem resposta = "A CAMINHO";
+emitir chamada * 3;
+emitir resposta + " AGUARDE";

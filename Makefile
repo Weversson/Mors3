@@ -4,8 +4,9 @@ ANTLR_URL := https://www.antlr.org/download/antlr-$(ANTLR_VERSION)-complete.jar
 PY := .venv/bin/python
 RUNTIME_STAMP := .venv/.antlr-runtime-$(ANTLR_VERSION)
 INPUT ?= exemplos/ola.mf
+ARGS ?=
 
-.PHONY: all setup gen gen-prototipo run prototype test clean
+.PHONY: all setup gen gen-prototipo run sintatico prototype test clean
 
 all: gen
 
@@ -31,6 +32,9 @@ gen-prototipo: setup
 
 run: gen
 	$(PY) src/lexico.py $(INPUT)
+
+sintatico: gen
+	$(PY) src/sintatico.py $(INPUT) $(ARGS)
 
 prototype: gen-prototipo
 	$(PY) mfcc.py -o /tmp/mfcc_prototype examples/olamundo.mf

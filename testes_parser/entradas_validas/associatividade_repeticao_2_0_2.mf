@@ -1,0 +1,2 @@
+// Caso de sintaxe: associatividade_repeticao, 2_0_2.
+emitir "Olá" * 0 * 2;

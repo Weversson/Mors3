@@ -1,0 +1,5 @@
+// Caso de sintaxe: ordem_comandos, etet.
+emitir "SOS";
+tom 600;
+emitir "SOS";
+tom 600;

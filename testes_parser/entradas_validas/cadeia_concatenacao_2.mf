@@ -1,0 +1,2 @@
+// Caso de sintaxe: cadeia_concatenacao, 2.
+emitir "A" + "A";

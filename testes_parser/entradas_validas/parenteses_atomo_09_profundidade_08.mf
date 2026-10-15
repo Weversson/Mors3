@@ -1,0 +1,2 @@
+// Caso de sintaxe: parenteses, atomo_09_profundidade_08.
+emitir ((((((((mensagem_extra))))))));

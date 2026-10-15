@@ -1,0 +1,2 @@
+// Caso de sintaxe: operadores, atribuicao_06_08.
+emitir alerta = a1;

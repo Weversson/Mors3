@@ -1,0 +1,2 @@
+// Caso de sintaxe: parenteses, atomo_06_profundidade_01.
+emitir (alerta);

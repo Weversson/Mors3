@@ -1,0 +1,2 @@
+// Caso de sintaxe: operadores, atribuicao_10_09.
+emitir TOM = mensagem_extra;

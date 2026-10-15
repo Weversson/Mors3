@@ -1,0 +1,2 @@
+// Caso de sintaxe: separadores, compacto.
+mensagem a="A";tom 600;velocidade 20;emitir(a+"B")*2;

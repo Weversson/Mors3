@@ -1,0 +1,2 @@
+// Caso de sintaxe: expressao_declaracao, 7.
+mensagem a = *; emitir "A";

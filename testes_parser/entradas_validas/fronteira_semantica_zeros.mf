@@ -1,0 +1,2 @@
+// Caso de sintaxe: fronteira_semantica, zeros.
+tom 0; velocidade 0; emitir "A" * 0;

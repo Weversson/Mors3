@@ -1,0 +1,2 @@
+// Caso de sintaxe: precedencia, 00_08_agrupada_0.
+emitir ("" + a1) * 0;

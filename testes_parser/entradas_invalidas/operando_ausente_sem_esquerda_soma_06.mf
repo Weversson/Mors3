@@ -1,0 +1,2 @@
+// Caso de sintaxe: operando_ausente, sem_esquerda_soma_06.
+emitir + alerta;

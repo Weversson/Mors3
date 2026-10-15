@@ -1,0 +1,2 @@
+// Caso de sintaxe: operadores, repeticoes_01_07.
+emitir "SOS" * * _;

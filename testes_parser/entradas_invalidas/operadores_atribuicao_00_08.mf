@@ -1,0 +1,2 @@
+// Caso de sintaxe: operadores, atribuicao_00_08.
+emitir "" = a1;

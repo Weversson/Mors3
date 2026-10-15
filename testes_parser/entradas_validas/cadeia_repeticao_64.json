@@ -1,0 +1,462 @@
+{
+  "ast": {
+    "tipo": "Programa",
+    "comandos": [
+      {
+        "tipo": "Emissao",
+        "expressao": {
+          "tipo": "Repeticao",
+          "texto": {
+            "tipo": "Repeticao",
+            "texto": {
+              "tipo": "Repeticao",
+              "texto": {
+                "tipo": "Repeticao",
+                "texto": {
+                  "tipo": "Repeticao",
+                  "texto": {
+                    "tipo": "Repeticao",
+                    "texto": {
+                      "tipo": "Repeticao",
+                      "texto": {
+                        "tipo": "Repeticao",
+                        "texto": {
+                          "tipo": "Repeticao",
+                          "texto": {
+                            "tipo": "Repeticao",
+                            "texto": {
+                              "tipo": "Repeticao",
+                              "texto": {
+                                "tipo": "Repeticao",
+                                "texto": {
+                                  "tipo": "Repeticao",
+                                  "texto": {
+                                    "tipo": "Repeticao",
+                                    "texto": {
+                                      "tipo": "Repeticao",
+                                      "texto": {
+                                        "tipo": "Repeticao",
+                                        "texto": {
+                                          "tipo": "Repeticao",
+                                          "texto": {
+                                            "tipo": "Repeticao",
+                                            "texto": {
+                                              "tipo": "Repeticao",
+                                              "texto": {
+                                                "tipo": "Repeticao",
+                                                "texto": {
+                                                  "tipo": "Repeticao",
+                                                  "texto": {
+                                                    "tipo": "Repeticao",
+                                                    "texto": {
+                                                      "tipo": "Repeticao",
+                                                      "texto": {
+                                                        "tipo": "Repeticao",
+                                                        "texto": {
+                                                          "tipo": "Repeticao",
+                                                          "texto": {
+                                                            "tipo": "Repeticao",
+                                                            "texto": {
+                                                              "tipo": "Repeticao",
+                                                              "texto": {
+                                                                "tipo": "Repeticao",
+                                                                "texto": {
+                                                                  "tipo": "Repeticao",
+                                                                  "texto": {
+                                                                    "tipo": "Repeticao",
+                                                                    "texto": {
+                                                                      "tipo": "Repeticao",
+                                                                      "texto": {
+                                                                        "tipo": "Repeticao",
+                                                                        "texto": {
+                                                                          "tipo": "Repeticao",
+                                                                          "texto": {
+                                                                            "tipo": "Repeticao",
+                                                                            "texto": {
+                                                                              "tipo": "Repeticao",
+                                                                              "texto": {
+                                                                                "tipo": "Repeticao",
+                                                                                "texto": {
+                                                                                  "tipo": "Repeticao",
+                                                                                  "texto": {
+                                                                                    "tipo": "Repeticao",
+                                                                                    "texto": {
+                                                                                      "tipo": "Repeticao",
+                                                                                      "texto": {
+                                                                                        "tipo": "Repeticao",
+                                                                                        "texto": {
+                                                                                          "tipo": "Repeticao",
+                                                                                          "texto": {
+                                                                                            "tipo": "Repeticao",
+                                                                                            "texto": {
+                                                                                              "tipo": "Repeticao",
+                                                                                              "texto": {
+                                                                                                "tipo": "Repeticao",
+                                                                                                "texto": {
+                                                                                                  "tipo": "Repeticao",
+                                                                                                  "texto": {
+                                                                                                    "tipo": "Repeticao",
+                                                                                                    "texto": {
+                                                                                                      "tipo": "Repeticao",
+                                                                                                      "texto": {
+                                                                                                        "tipo": "Repeticao",
+                                                                                                        "texto": {
+                                                                                                          "tipo": "Repeticao",
+                                                                                                          "texto": {
+                                                                                                            "tipo": "Repeticao",
+                                                                                                            "texto": {
+                                                                                                              "tipo": "Repeticao",
+                                                                                                              "texto": {
+                                                                                                                "tipo": "Repeticao",
+                                                                                                                "texto": {
+                                                                                                                  "tipo": "Repeticao",
+                                                                                                                  "texto": {
+                                                                                                                    "tipo": "Repeticao",
+                                                                                                                    "texto": {
+                                                                                                                      "tipo": "Repeticao",
+                                                                                                                      "texto": {
+                                                                                                                        "tipo": "Repeticao",
+                                                                                                                        "texto": {
+                                                                                                                          "tipo": "Repeticao",
+                                                                                                                          "texto": {
+                                                                                                                            "tipo": "Repeticao",
+                                                                                                                            "texto": {
+                                                                                                                              "tipo": "Repeticao",
+                                                                                                                              "texto": {
+                                                                                                                                "tipo": "Repeticao",
+                                                                                                                                "texto": {
+                                                                                                                                  "tipo": "Repeticao",
+                                                                                                                                  "texto": {
+                                                                                                                                    "tipo": "Repeticao",
+                                                                                                                                    "texto": {
+                                                                                                                                      "tipo": "Repeticao",
+                                                                                                                                      "texto": {
+                                                                                                                                        "tipo": "Repeticao",
+                                                                                                                                        "texto": {
+                                                                                                                                          "tipo": "Texto",
+                                                                                                                                          "valor": "A"
+                                                                                                                                        },
+                                                                                                                                        "quantidade": {
+                                                                                                                                          "tipo": "Numero",
+                                                                                                                                          "lexema": "2"
+                                                                                                                                        }
+                                                                                                                                      },
+                                                                                                                                      "quantidade": {
+                                                                                                                                        "tipo": "Numero",
+                                                                                                                                        "lexema": "2"
+                                                                                                                                      }
+                                                                                                                                    },
+                                                                                                                                    "quantidade": {
+                                                                                                                                      "tipo": "Numero",
+                                                                                                                                      "lexema": "2"
+                                                                                                                                    }
+                                                                                                                                  },
+                                                                                                                                  "quantidade": {
+                                                                                                                                    "tipo": "Numero",
+                                                                                                                                    "lexema": "2"
+                                                                                                                                  }
+                                                                                                                                },
+                                                                                                                                "quantidade": {
+                                                                                                                                  "tipo": "Numero",
+                                                                                                                                  "lexema": "2"
+                                                                                                                                }
+                                                                                                                              },
+                                                                                                                              "quantidade": {
+                                                                                                                                "tipo": "Numero",
+                                                                                                                                "lexema": "2"
+                                                                                                                              }
+                                                                                                                            },
+                                                                                                                            "quantidade": {
+                                                                                                                              "tipo": "Numero",
+                                                                                                                              "lexema": "2"
+                                                                                                                            }
+                                                                                                                          },
+                                                                                                                          "quantidade": {
+                                                                                                                            "tipo": "Numero",
+                                                                                                                            "lexema": "2"
+                                                                                                                          }
+                                                                                                                        },
+                                                                                                                        "quantidade": {
+                                                                                                                          "tipo": "Numero",
+                                                                                                                          "lexema": "2"
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      "quantidade": {
+                                                                                                                        "tipo": "Numero",
+                                                                                                                        "lexema": "2"
+                                                                                                                      }
+                                                                                                                    },
+                                                                                                                    "quantidade": {
+                                                                                                                      "tipo": "Numero",
+                                                                                                                      "lexema": "2"
+                                                                                                                    }
+                                                                                                                  },
+                                                                                                                  "quantidade": {
+                                                                                                                    "tipo": "Numero",
+                                                                                                                    "lexema": "2"
+                                                                                                                  }
+                                                                                                                },
+                                                                                                                "quantidade": {
+                                                                                                                  "tipo": "Numero",
+                                                                                                                  "lexema": "2"
+                                                                                                                }
+                                                                                                              },
+                                                                                                              "quantidade": {
+                                                                                                                "tipo": "Numero",
+                                                                                                                "lexema": "2"
+                                                                                                              }
+                                                                                                            },
+                                                                                                            "quantidade": {
+                                                                                                              "tipo": "Numero",
+                                                                                                              "lexema": "2"
+                                                                                                            }
+                                                                                                          },
+                                                                                                          "quantidade": {
+                                                                                                            "tipo": "Numero",
+                                                                                                            "lexema": "2"
+                                                                                                          }
+                                                                                                        },
+                                                                                                        "quantidade": {
+                                                                                                          "tipo": "Numero",
+                                                                                                          "lexema": "2"
+                                                                                                        }
+                                                                                                      },
+                                                                                                      "quantidade": {
+                                                                                                        "tipo": "Numero",
+                                                                                                        "lexema": "2"
+                                                                                                      }
+                                                                                                    },
+                                                                                                    "quantidade": {
+                                                                                                      "tipo": "Numero",
+                                                                                                      "lexema": "2"
+                                                                                                    }
+                                                                                                  },
+                                                                                                  "quantidade": {
+                                                                                                    "tipo": "Numero",
+                                                                                                    "lexema": "2"
+                                                                                                  }
+                                                                                                },
+                                                                                                "quantidade": {
+                                                                                                  "tipo": "Numero",
+                                                                                                  "lexema": "2"
+                                                                                                }
+                                                                                              },
+                                                                                              "quantidade": {
+                                                                                                "tipo": "Numero",
+                                                                                                "lexema": "2"
+                                                                                              }
+                                                                                            },
+                                                                                            "quantidade": {
+                                                                                              "tipo": "Numero",
+                                                                                              "lexema": "2"
+                                                                                            }
+                                                                                          },
+                                                                                          "quantidade": {
+                                                                                            "tipo": "Numero",
+                                                                                            "lexema": "2"
+                                                                                          }
+                                                                                        },
+                                                                                        "quantidade": {
+                                                                                          "tipo": "Numero",
+                                                                                          "lexema": "2"
+                                                                                        }
+                                                                                      },
+                                                                                      "quantidade": {
+                                                                                        "tipo": "Numero",
+                                                                                        "lexema": "2"
+                                                                                      }
+                                                                                    },
+                                                                                    "quantidade": {
+                                                                                      "tipo": "Numero",
+                                                                                      "lexema": "2"
+                                                                                    }
+                                                                                  },
+                                                                                  "quantidade": {
+                                                                                    "tipo": "Numero",
+                                                                                    "lexema": "2"
+                                                                                  }
+                                                                                },
+                                                                                "quantidade": {
+                                                                                  "tipo": "Numero",
+                                                                                  "lexema": "2"
+                                                                                }
+                                                                              },
+                                                                              "quantidade": {
+                                                                                "tipo": "Numero",
+                                                                                "lexema": "2"
+                                                                              }
+                                                                            },
+                                                                            "quantidade": {
+                                                                              "tipo": "Numero",
+                                                                              "lexema": "2"
+                                                                            }
+                                                                          },
+                                                                          "quantidade": {
+                                                                            "tipo": "Numero",
+                                                                            "lexema": "2"
+                                                                          }
+                                                                        },
+                                                                        "quantidade": {
+                                                                          "tipo": "Numero",
+                                                                          "lexema": "2"
+                                                                        }
+                                                                      },
+                                                                      "quantidade": {
+                                                                        "tipo": "Numero",
+                                                                        "lexema": "2"
+                                                                      }
+                                                                    },
+                                                                    "quantidade": {
+                                                                      "tipo": "Numero",
+                                                                      "lexema": "2"
+                                                                    }
+                                                                  },
+                                                                  "quantidade": {
+                                                                    "tipo": "Numero",
+                                                                    "lexema": "2"
+                                                                  }
+                                                                },
+                                                                "quantidade": {
+                                                                  "tipo": "Numero",
+                                                                  "lexema": "2"
+                                                                }
+                                                              },
+                                                              "quantidade": {
+                                                                "tipo": "Numero",
+                                                                "lexema": "2"
+                                                              }
+                                                            },
+                                                            "quantidade": {
+                                                              "tipo": "Numero",
+                                                              "lexema": "2"
+                                                            }
+                                                          },
+                                                          "quantidade": {
+                                                            "tipo": "Numero",
+                                                            "lexema": "2"
+                                                          }
+                                                        },
+                                                        "quantidade": {
+                                                          "tipo": "Numero",
+                                                          "lexema": "2"
+                                                        }
+                                                      },
+                                                      "quantidade": {
+                                                        "tipo": "Numero",
+                                                        "lexema": "2"
+                                                      }
+                                                    },
+                                                    "quantidade": {
+                                                      "tipo": "Numero",
+                                                      "lexema": "2"
+                                                    }
+                                                  },
+                                                  "quantidade": {
+                                                    "tipo": "Numero",
+                                                    "lexema": "2"
+                                                  }
+                                                },
+                                                "quantidade": {
+                                                  "tipo": "Numero",
+                                                  "lexema": "2"
+                                                }
+                                              },
+                                              "quantidade": {
+                                                "tipo": "Numero",
+                                                "lexema": "2"
+                                              }
+                                            },
+                                            "quantidade": {
+                                              "tipo": "Numero",
+                                              "lexema": "2"
+                                            }
+                                          },
+                                          "quantidade": {
+                                            "tipo": "Numero",
+                                            "lexema": "2"
+                                          }
+                                        },
+                                        "quantidade": {
+                                          "tipo": "Numero",
+                                          "lexema": "2"
+                                        }
+                                      },
+                                      "quantidade": {
+                                        "tipo": "Numero",
+                                        "lexema": "2"
+                                      }
+                                    },
+                                    "quantidade": {
+                                      "tipo": "Numero",
+                                      "lexema": "2"
+                                    }
+                                  },
+                                  "quantidade": {
+                                    "tipo": "Numero",
+                                    "lexema": "2"
+                                  }
+                                },
+                                "quantidade": {
+                                  "tipo": "Numero",
+                                  "lexema": "2"
+                                }
+                              },
+                              "quantidade": {
+                                "tipo": "Numero",
+                                "lexema": "2"
+                              }
+                            },
+                            "quantidade": {
+                              "tipo": "Numero",
+                              "lexema": "2"
+                            }
+                          },
+                          "quantidade": {
+                            "tipo": "Numero",
+                            "lexema": "2"
+                          }
+                        },
+                        "quantidade": {
+                          "tipo": "Numero",
+                          "lexema": "2"
+                        }
+                      },
+                      "quantidade": {
+                        "tipo": "Numero",
+                        "lexema": "2"
+                      }
+                    },
+                    "quantidade": {
+                      "tipo": "Numero",
+                      "lexema": "2"
+                    }
+                  },
+                  "quantidade": {
+                    "tipo": "Numero",
+                    "lexema": "2"
+                  }
+                },
+                "quantidade": {
+                  "tipo": "Numero",
+                  "lexema": "2"
+                }
+              },
+              "quantidade": {
+                "tipo": "Numero",
+                "lexema": "2"
+              }
+            },
+            "quantidade": {
+              "tipo": "Numero",
+              "lexema": "2"
+            }
+          },
+          "quantidade": {
+            "tipo": "Numero",
+            "lexema": "2"
+          }
+        }
+      }
+    ]
+  }
+}

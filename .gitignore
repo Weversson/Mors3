@@ -1,6 +1,12 @@
 # Diretórios locais
 .agents/
 .codex/
+.aws/
+
+# Arquivos temporários de editores
+*.swp
+*.swo
+*~
 
 # Dependências e código gerado
 .venv/
@@ -16,3 +22,9 @@ __pycache__/
 *.tokens
 *.morse
 *.wav
+
+# Relatórios gerados pelos testes, inclusive com --relatorios dentro do projeto
+morselang-parser.*/
+resultados.jsonl
+resumo.json
+*.log

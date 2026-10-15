@@ -1,0 +1,2 @@
+// Caso de sintaxe: associatividade_soma, 2_3_1.
+emitir "Olá" + "//" + "SOS";

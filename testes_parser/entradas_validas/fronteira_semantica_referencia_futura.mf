@@ -1,0 +1,2 @@
+// Caso de sintaxe: fronteira_semantica, referencia_futura.
+mensagem a = b; mensagem b = "B"; emitir a;

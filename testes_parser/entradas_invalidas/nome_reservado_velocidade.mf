@@ -1,0 +1,2 @@
+// Caso de sintaxe: nome_reservado, velocidade.
+mensagem velocidade = "A"; emitir "A";

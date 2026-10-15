@@ -1,0 +1,2 @@
+// Caso de sintaxe: concatenacao, 00_07.
+emitir "" + _;

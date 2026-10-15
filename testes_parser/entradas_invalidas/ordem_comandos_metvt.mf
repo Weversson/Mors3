@@ -1,0 +1,6 @@
+// Caso de sintaxe: ordem_comandos, metvt.
+mensagem m0 = "M0";
+emitir "SOS";
+tom 600;
+velocidade 20;
+tom 600;

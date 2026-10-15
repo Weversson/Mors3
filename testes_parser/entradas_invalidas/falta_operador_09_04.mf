@@ -1,0 +1,2 @@
+// Caso de sintaxe: falta_operador, 09_04.
+emitir mensagem_extra "() + * ;";

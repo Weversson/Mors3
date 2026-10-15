@@ -1,0 +1,2 @@
+// Caso de sintaxe: configuracao_operando, tom_e09e637c.
+tom alerta; emitir "A";

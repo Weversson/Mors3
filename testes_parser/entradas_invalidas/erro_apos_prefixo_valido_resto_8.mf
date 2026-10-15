@@ -1,0 +1,10 @@
+// Caso de sintaxe: erro_apos_prefixo_valido, resto_8.
+emitir "SOS";
+emitir "SOS";
+emitir "SOS";
+emitir "SOS";
+emitir "SOS";
+emitir "SOS";
+emitir "SOS";
+emitir "SOS";
+resto

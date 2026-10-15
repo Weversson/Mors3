@@ -1,0 +1,2 @@
+// Caso de sintaxe: concatenacao, 02_06.
+emitir "Olá" + alerta;

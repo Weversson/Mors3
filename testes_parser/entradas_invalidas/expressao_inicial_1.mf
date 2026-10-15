@@ -1,0 +1,2 @@
+// Caso de sintaxe: expressao_inicial, 1.
+emitir 20;

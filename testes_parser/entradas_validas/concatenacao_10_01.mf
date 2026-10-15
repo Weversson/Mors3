@@ -1,0 +1,2 @@
+// Caso de sintaxe: concatenacao, 10_01.
+emitir TOM + "SOS";

@@ -1,0 +1,5 @@
+// Caso de sintaxe: ordem_comandos, emmt.
+emitir "SOS";
+mensagem m1 = "M1";
+mensagem m2 = "M2";
+tom 600;

@@ -1,0 +1,2 @@
+// Caso de sintaxe: identificador, velocidade_20.
+mensagem velocidade_20 = "A"; emitir velocidade_20;

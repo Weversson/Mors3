@@ -1,0 +1,2 @@
+// Caso de sintaxe: operadores, somas_10_08.
+emitir TOM + + a1;

@@ -1,0 +1,28 @@
+{
+  "ast": {
+    "tipo": "Programa",
+    "comandos": [
+      {
+        "tipo": "Emissao",
+        "expressao": {
+          "tipo": "Concatenacao",
+          "esquerda": {
+            "tipo": "Concatenacao",
+            "esquerda": {
+              "tipo": "Texto",
+              "valor": "//"
+            },
+            "direita": {
+              "tipo": "Texto",
+              "valor": "Olá"
+            }
+          },
+          "direita": {
+            "tipo": "Texto",
+            "valor": "//"
+          }
+        }
+      }
+    ]
+  }
+}

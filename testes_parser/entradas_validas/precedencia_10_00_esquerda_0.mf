@@ -1,0 +1,2 @@
+// Caso de sintaxe: precedencia, 10_00_esquerda_0.
+emitir TOM * 0 + "";

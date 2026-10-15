@@ -1,0 +1,2 @@
+// Caso de sintaxe: operadores, repeticoes_07_06.
+emitir _ * * alerta;

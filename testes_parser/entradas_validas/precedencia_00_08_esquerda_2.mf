@@ -1,0 +1,2 @@
+// Caso de sintaxe: precedencia, 00_08_esquerda_2.
+emitir "" * 2 + a1;

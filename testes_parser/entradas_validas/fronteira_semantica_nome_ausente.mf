@@ -1,0 +1,2 @@
+// Caso de sintaxe: fronteira_semantica, nome_ausente.
+emitir ausente;

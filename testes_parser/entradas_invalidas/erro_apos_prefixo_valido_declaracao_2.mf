@@ -1,0 +1,4 @@
+// Caso de sintaxe: erro_apos_prefixo_valido, declaracao_2.
+emitir "SOS";
+emitir "SOS";
+mensagem a = "A";

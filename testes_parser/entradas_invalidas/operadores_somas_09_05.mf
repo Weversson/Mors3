@@ -1,0 +1,2 @@
+// Caso de sintaxe: operadores, somas_09_05.
+emitir mensagem_extra + + "😀";

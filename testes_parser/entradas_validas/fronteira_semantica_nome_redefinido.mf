@@ -1,0 +1,2 @@
+// Caso de sintaxe: fronteira_semantica, nome_redefinido.
+mensagem a = "A"; mensagem a = "B"; emitir a;

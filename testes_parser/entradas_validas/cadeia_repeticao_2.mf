@@ -1,0 +1,2 @@
+// Caso de sintaxe: cadeia_repeticao, 2.
+emitir "A" * 2 * 2;

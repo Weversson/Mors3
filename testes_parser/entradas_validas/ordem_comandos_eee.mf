@@ -1,0 +1,4 @@
+// Caso de sintaxe: ordem_comandos, eee.
+emitir "SOS";
+emitir "SOS";
+emitir "SOS";

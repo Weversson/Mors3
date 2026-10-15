@@ -1,0 +1,2 @@
+// Caso de sintaxe: repeticao_operando, 06_03.
+emitir alerta * (2);

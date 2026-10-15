@@ -1,0 +1,2 @@
+// Caso de sintaxe: identificador, a1.
+mensagem a1 = "A"; emitir a1;

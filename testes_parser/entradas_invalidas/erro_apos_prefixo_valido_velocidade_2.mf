@@ -1,0 +1,4 @@
+// Caso de sintaxe: erro_apos_prefixo_valido, velocidade_2.
+emitir "SOS";
+emitir "SOS";
+velocidade 20;

@@ -1,0 +1,6 @@
+// Caso de sintaxe: ordem_comandos, eeemt.
+emitir "SOS";
+emitir "SOS";
+emitir "SOS";
+mensagem m3 = "M3";
+tom 600;

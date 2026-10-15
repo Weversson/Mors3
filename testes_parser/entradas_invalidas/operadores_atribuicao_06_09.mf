@@ -1,0 +1,2 @@
+// Caso de sintaxe: operadores, atribuicao_06_09.
+emitir alerta = mensagem_extra;

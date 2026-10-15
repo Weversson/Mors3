@@ -1,0 +1,2 @@
+// Caso de sintaxe: agrupamento_direita, 0_1_3.
+emitir "" + ("SOS" + "//");

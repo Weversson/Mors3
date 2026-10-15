@@ -1,0 +1,119 @@
+{
+  "ast": {
+    "tipo": "Programa",
+    "comandos": [
+      {
+        "tipo": "Emissao",
+        "expressao": {
+          "tipo": "Concatenacao",
+          "esquerda": {
+            "tipo": "Concatenacao",
+            "esquerda": {
+              "tipo": "Concatenacao",
+              "esquerda": {
+                "tipo": "Concatenacao",
+                "esquerda": {
+                  "tipo": "Concatenacao",
+                  "esquerda": {
+                    "tipo": "Concatenacao",
+                    "esquerda": {
+                      "tipo": "Concatenacao",
+                      "esquerda": {
+                        "tipo": "Concatenacao",
+                        "esquerda": {
+                          "tipo": "Concatenacao",
+                          "esquerda": {
+                            "tipo": "Concatenacao",
+                            "esquerda": {
+                              "tipo": "Concatenacao",
+                              "esquerda": {
+                                "tipo": "Concatenacao",
+                                "esquerda": {
+                                  "tipo": "Concatenacao",
+                                  "esquerda": {
+                                    "tipo": "Concatenacao",
+                                    "esquerda": {
+                                      "tipo": "Concatenacao",
+                                      "esquerda": {
+                                        "tipo": "Texto",
+                                        "valor": "A"
+                                      },
+                                      "direita": {
+                                        "tipo": "Texto",
+                                        "valor": "A"
+                                      }
+                                    },
+                                    "direita": {
+                                      "tipo": "Texto",
+                                      "valor": "A"
+                                    }
+                                  },
+                                  "direita": {
+                                    "tipo": "Texto",
+                                    "valor": "A"
+                                  }
+                                },
+                                "direita": {
+                                  "tipo": "Texto",
+                                  "valor": "A"
+                                }
+                              },
+                              "direita": {
+                                "tipo": "Texto",
+                                "valor": "A"
+                              }
+                            },
+                            "direita": {
+                              "tipo": "Texto",
+                              "valor": "A"
+                            }
+                          },
+                          "direita": {
+                            "tipo": "Texto",
+                            "valor": "A"
+                          }
+                        },
+                        "direita": {
+                          "tipo": "Texto",
+                          "valor": "A"
+                        }
+                      },
+                      "direita": {
+                        "tipo": "Texto",
+                        "valor": "A"
+                      }
+                    },
+                    "direita": {
+                      "tipo": "Texto",
+                      "valor": "A"
+                    }
+                  },
+                  "direita": {
+                    "tipo": "Texto",
+                    "valor": "A"
+                  }
+                },
+                "direita": {
+                  "tipo": "Texto",
+                  "valor": "A"
+                }
+              },
+              "direita": {
+                "tipo": "Texto",
+                "valor": "A"
+              }
+            },
+            "direita": {
+              "tipo": "Texto",
+              "valor": "A"
+            }
+          },
+          "direita": {
+            "tipo": "Texto",
+            "valor": "A"
+          }
+        }
+      }
+    ]
+  }
+}

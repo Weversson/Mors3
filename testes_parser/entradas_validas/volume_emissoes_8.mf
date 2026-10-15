@@ -1,0 +1,9 @@
+// Caso de sintaxe: volume_emissoes, 8.
+emitir "0";
+emitir "1";
+emitir "2";
+emitir "3";
+emitir "4";
+emitir "5";
+emitir "6";
+emitir "7";

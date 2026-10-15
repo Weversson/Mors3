@@ -1,0 +1,2 @@
+// Caso de sintaxe: nome_reservado, tom.
+mensagem tom = "A"; emitir "A";

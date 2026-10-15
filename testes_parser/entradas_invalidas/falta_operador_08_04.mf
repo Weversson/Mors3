@@ -1,0 +1,2 @@
+// Caso de sintaxe: falta_operador, 08_04.
+emitir a1 "() + * ;";

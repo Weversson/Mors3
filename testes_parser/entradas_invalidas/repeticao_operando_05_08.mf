@@ -1,0 +1,2 @@
+// Caso de sintaxe: repeticao_operando, 05_08.
+emitir "😀" * =;

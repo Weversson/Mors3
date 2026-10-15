@@ -1,0 +1,10 @@
+// Caso de sintaxe: volume_declaracoes, 8.
+mensagem m0 = "A";
+mensagem m1 = "A";
+mensagem m2 = "A";
+mensagem m3 = "A";
+mensagem m4 = "A";
+mensagem m5 = "A";
+mensagem m6 = "A";
+mensagem m7 = "A";
+emitir m0;

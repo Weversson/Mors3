@@ -1,0 +1,3 @@
+// Caso de sintaxe: volume_emissoes, 2.
+emitir "0";
+emitir "1";

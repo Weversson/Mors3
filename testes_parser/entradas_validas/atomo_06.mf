@@ -1,0 +1,2 @@
+// Caso de sintaxe: atomo, 06.
+emitir alerta;

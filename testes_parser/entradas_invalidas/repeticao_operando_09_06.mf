@@ -1,0 +1,2 @@
+// Caso de sintaxe: repeticao_operando, 09_06.
+emitir mensagem_extra * *;

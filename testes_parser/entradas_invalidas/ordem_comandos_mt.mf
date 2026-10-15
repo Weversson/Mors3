@@ -1,0 +1,3 @@
+// Caso de sintaxe: ordem_comandos, mt.
+mensagem m0 = "M0";
+tom 600;

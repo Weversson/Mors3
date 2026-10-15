@@ -1,0 +1,2 @@
+// Caso de sintaxe: associatividade_repeticao, 0_1_2.
+emitir "" * 1 * 2;

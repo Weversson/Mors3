@@ -1,0 +1,6 @@
+// Caso de sintaxe: ordem_comandos, vvttt.
+velocidade 20;
+velocidade 20;
+tom 600;
+tom 600;
+tom 600;

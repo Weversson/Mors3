@@ -1,0 +1,2 @@
+// Caso de sintaxe: precedencia, 05_02_agrupada_0010.
+emitir ("😀" + "Olá") * 0010;

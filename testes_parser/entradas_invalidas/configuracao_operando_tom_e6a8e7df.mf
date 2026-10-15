@@ -1,0 +1,2 @@
+// Caso de sintaxe: configuracao_operando, tom_e6a8e7df.
+tom 600 + 20; emitir "A";

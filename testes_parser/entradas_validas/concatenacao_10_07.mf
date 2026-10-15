@@ -1,0 +1,2 @@
+// Caso de sintaxe: concatenacao, 10_07.
+emitir TOM + _;

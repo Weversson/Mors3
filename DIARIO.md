@@ -1,6 +1,6 @@
 # Diário de desenvolvimento
 
-Este diário registra as etapas de 09 e 22 de setembro de 2026. O relato de 09/09 foi organizado a partir dos arquivos do protótipo preservados no projeto.
+Este diário registra as etapas de 09 e 22 de setembro e de 14 de outubro de 2026. O relato de 09/09 foi organizado a partir dos arquivos do protótipo preservados no projeto.
 
 ## 09/09/2026: primeira proposta e protótipo
 
@@ -23,3 +23,15 @@ Para a E2, criamos `gramatica/MorseLang.g4` como uma gramática ANTLR apenas de 
 Os testes passaram em 61 casos, incluindo os exemplos válidos e inválidos, as posições dos tokens e os testes do protótipo anterior. Também geramos temporariamente um parser ANTLR que reutilizou os tokens de MorseLang e aceitou os três exemplos válidos. Esse teste indica que o lexer pode servir de base para a E3, sem afirmar que a análise sintática já esteja implementada no projeto.
 
 A entrega atual reconhece tokens, mas ainda não executa programas MorseLang. A análise sintática fica para a E3; a análise semântica e a geração de `.morse` e `.wav` a partir da nova linguagem ficam para a E4.
+
+## 14/10/2026: implementação do analisador sintático E3
+
+Implementamos a gramática permanente `gramatica/MorseLangParser.g4`, reutilizando os tokens do lexer da E2. A regra inicial exige pelo menos um comando `emitir` e consome o arquivo inteiro até `EOF`. O preâmbulo permite declarações de mensagem intercaladas com as configurações, restringindo `tom` e `velocidade` a uma ocorrência cada e impedindo novos comandos de configuração ou declaração após a primeira emissão.
+
+Separamos as expressões em expressão, termo e átomo para representar a precedência da repetição sobre a concatenação e o efeito dos parênteses. Criamos `src/ast_morselang.py` e um visitante para construir a AST com comandos, referências, literais, concatenações e repetições. O visitante associa os operadores à esquerda e mantém a posição inicial dos nós na fonte. Essa AST é independente da estrutura de palavras e símbolos do protótipo anterior.
+
+Acrescentamos a CLI `src/sintatico.py`, com validação simples, árvore concreta por `--arvore` e AST em JSON por `--ast`. Compartilhamos a criação do lexer com a E2 para impedir que caracteres inválidos sejam descartados silenciosamente antes do parsing. Os erros léxicos e sintáticos interrompem a análise, retornam código 1 e apresentam linha e coluna. O script `gerar.sh` passou a gerar também o parser e o visitante, e `make sintatico` executa a nova etapa.
+
+Substituímos o teste temporário de viabilidade pelos testes do parser permanente. Acrescentamos dois exemplos válidos e seis exemplos de erros sintáticos. A execução de `make test` passou nos 90 testes, incluindo os testes anteriores, precedência, associatividade, ordens possíveis do preâmbulo, rejeição de estruturas inválidas, posições dos erros, saída JSON e execução fora do diretório do projeto. Os testes também confirmam que esta etapa não produz arquivos de áudio.
+
+A análise semântica e a execução continuam pendentes para a E4. O parser não resolve nomes, não verifica positividade ou limites dos valores, não aplica os parâmetros padrão e não converte mensagens em Morse. A especificação e o README foram atualizados para deixar essa fronteira explícita.

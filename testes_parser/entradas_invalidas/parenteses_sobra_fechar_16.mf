@@ -1,0 +1,2 @@
+// Caso de sintaxe: parenteses, sobra_fechar_16.
+emitir (((((((((((((((("A")))))))))))))))));
