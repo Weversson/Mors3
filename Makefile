@@ -27,7 +27,7 @@ gen: setup
 gen-prototipo: setup
 	mkdir -p generated
 	touch generated/__init__.py
-	cd grammar && java -jar ../$(ANTLR_JAR) -Dlanguage=Python3 -o ../generated Morse.g4
+	cd grammar && java -jar ../$(ANTLR_JAR) -Dlanguage=Python3 -visitor -o ../generated Morse.g4
 	rm -f generated/*.interp generated/*.tokens
 
 run: gen
