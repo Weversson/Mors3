@@ -1,87 +1,44 @@
-"""Lista os tokens da linguagem Morse da entrega E2."""
+"""Fachada pública e CLI da análise léxica de MorseLang.
+
+A implementação fica no pacote `src.analise_lexica`; este módulo mantém os
+imports históricos da E2 (`ErroLexico`, `TokenInfo`, `criar_lexer`, `analisar`)
+e a execução direta de `src/lexico.py`.
+"""
 
 import os
 import sys
 
+_PROJETO_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if __name__ == "__main__":
-    sys.path[0] = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    # Na execução direta, src/ ocupa sys.path[0] e faria `ast` resolver para
+    # src/ast.py em vez do módulo da biblioteca padrão. A raiz do projeto
+    # substitui essa entrada, como já ocorria na versão anterior do módulo.
+    sys.path[0] = _PROJETO_DIR
+elif _PROJETO_DIR not in sys.path:
+    sys.path.insert(0, _PROJETO_DIR)
 
-import argparse
-from dataclasses import dataclass
-from pathlib import Path
+from src.analise_lexica import (  # noqa: E402
+    ErroLexico,
+    TokenInfo,
+    analisar,
+    criar_lexer,
+    iterar_tokens,
+)
 
-from antlr4 import InputStream, Token
-from antlr4.error.ErrorListener import ErrorListener
-
-from gerado.MorseLang import MorseLang  # noqa: E402
-
-
-@dataclass(frozen=True)
-class TokenInfo:
-    tipo: str
-    texto: str
-    linha: int
-    coluna: int
-
-
-class ErroLexico(Exception):
-    def __init__(self, linha: int, coluna: int, detalhe: str) -> None:
-        self.linha = linha
-        self.coluna = coluna
-        self.detalhe = detalhe
-        super().__init__(f"linha {linha}, coluna {coluna}: {detalhe}")
-
-
-class _FalhaNoPrimeiroErro(ErrorListener):
-    def syntaxError(self, recognizer, offendingSymbol, line, column, msg, e):
-        raise ErroLexico(line, column + 1, msg)
-
-
-def criar_lexer(texto: str) -> MorseLang:
-    """Cria um lexer que interrompe a análise no primeiro erro léxico."""
-    lexer = MorseLang(InputStream(texto))
-    lexer.removeErrorListeners()
-    lexer.addErrorListener(_FalhaNoPrimeiroErro())
-    return lexer
-
-
-def analisar(texto: str) -> list[TokenInfo]:
-    lexer = criar_lexer(texto)
-
-    resultado = []
-    while True:
-        token = lexer.nextToken()
-        if token.type == Token.EOF:
-            return resultado
-        resultado.append(TokenInfo(
-            tipo=lexer.symbolicNames[token.type],
-            texto=token.text,
-            linha=token.line,
-            coluna=token.column + 1,
-        ))
+__all__ = [
+    "ErroLexico",
+    "TokenInfo",
+    "analisar",
+    "criar_lexer",
+    "iterar_tokens",
+]
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Lista os tokens de um programa Morse.")
-    parser.add_argument("arquivo", help="caminho do programa .mf")
-    args = parser.parse_args(argv)
+    """Executa a CLI canônica de análise léxica."""
+    from src.analise_lexica.cli import main as executar
 
-    try:
-        fonte = Path(args.arquivo).read_text(encoding="utf-8")
-    except (OSError, UnicodeDecodeError) as erro:
-        print(f"erro: não foi possível ler '{args.arquivo}': {erro}", file=sys.stderr)
-        return 1
-
-    try:
-        tokens = analisar(fonte)
-    except ErroLexico as erro:
-        print(f"erro léxico: {erro}", file=sys.stderr)
-        return 1
-
-    for token in tokens:
-        print(f"{token.tipo} {token.texto!r} linha {token.linha} coluna {token.coluna}")
-    print(f"{len(tokens)} tokens reconhecidos")
-    return 0
+    return executar(argv)
 
 
 if __name__ == "__main__":

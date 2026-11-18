@@ -1,0 +1,3 @@
+// O nome `ausente` nunca foi declarado.
+mensagem apresentacao = "SOS";
+emitir ausente;

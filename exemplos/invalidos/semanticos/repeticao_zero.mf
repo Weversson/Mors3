@@ -1,0 +1,3 @@
+// A repetição exige uma quantidade inteira positiva.
+mensagem alerta = "SOS";
+emitir alerta * 0;

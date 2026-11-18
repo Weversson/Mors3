@@ -5,8 +5,11 @@ PY := .venv/bin/python
 RUNTIME_STAMP := .venv/.antlr-runtime-$(ANTLR_VERSION)
 INPUT ?= exemplos/ola.mf
 ARGS ?=
+HOST ?= 127.0.0.1
+PORTA ?= 8000
+LIMITE_VISUAL ?= 10000
 
-.PHONY: all setup gen gen-prototipo run sintatico prototype test clean
+.PHONY: all setup gen gen-prototipo lexico run sintatico semantico timeline visual exportar prototype test test-unitario test-semantico clean
 
 all: gen
 
@@ -30,17 +33,37 @@ gen-prototipo: setup
 	cd grammar && java -jar ../$(ANTLR_JAR) -Dlanguage=Python3 -visitor -o ../generated Morse.g4
 	rm -f generated/*.interp generated/*.tokens
 
-run: gen
+lexico: gen
 	$(PY) src/lexico.py $(INPUT)
+
+run: lexico
 
 sintatico: gen
 	$(PY) src/sintatico.py $(INPUT) $(ARGS)
 
+semantico: gen
+	$(PY) src/semantico.py $(INPUT)
+
+timeline: gen
+	$(PY) -m src.execucao $(INPUT)
+
+visual:
+	@test -f gerado/MorseLangParser.py || $(MAKE) --no-print-directory gen
+	$(PY) -m src.visual --host $(HOST) --porta $(PORTA) --limite $(LIMITE_VISUAL)
+
+exportar: gen
+	$(PY) -m src.geracao $(INPUT)
+
 prototype: gen-prototipo
 	$(PY) mfcc.py -o /tmp/mfcc_prototype examples/olamundo.mf
 
-test: gen gen-prototipo
+test: test-unitario test-semantico
+
+test-unitario: gen gen-prototipo
 	$(PY) -m unittest discover -s tests -v
+
+test-semantico:
+	PYTHON_SEMANTICO=$(PY) ./testes_semanticos/orquestrador.sh
 
 clean:
 	rm -rf .venv generated gerado tools

@@ -1,0 +1,3 @@
+mensagem a = "A";
+mensagem b = a + "B";
+emitir (b + a) * 2;

@@ -1,0 +1,3 @@
+// O tom deve estar entre 100 e 20000 Hz.
+tom 25000;
+emitir "SOS";

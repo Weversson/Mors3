@@ -15,8 +15,8 @@ import time
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
+from src.analise_lexica import ErroLexico, criar_lexer
 from src.ast_morselang import para_dict
-from src.lexico import ErroLexico, criar_lexer
 from src.sintatico import ErroSintatico, analisar
 
 

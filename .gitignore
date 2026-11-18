@@ -25,6 +25,7 @@ __pycache__/
 
 # Relatórios gerados pelos testes, inclusive com --relatorios dentro do projeto
 morselang-parser.*/
+morselang-semantico.*/
 resultados.jsonl
 resumo.json
 *.log

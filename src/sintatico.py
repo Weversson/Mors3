@@ -16,9 +16,9 @@ from antlr4 import CommonTokenStream, Token
 from antlr4.error.ErrorListener import ErrorListener
 
 from gerado.MorseLangParser import MorseLangParser
+from src.analise_lexica import ErroLexico, criar_lexer
 from src.ast_morselang import Programa, para_dict
 from src.construir_ast import ConstruirAST
-from src.lexico import ErroLexico, criar_lexer
 
 
 class ErroSintatico(Exception):

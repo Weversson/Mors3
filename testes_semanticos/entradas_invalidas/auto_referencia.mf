@@ -1,0 +1,1 @@
+mensagem a = a; emitir a;

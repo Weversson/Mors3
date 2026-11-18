@@ -1,0 +1,2 @@
+// Emojis não fazem parte da tabela Morse da linguagem.
+emitir "SOS 😀";

@@ -1,0 +1,3 @@
+mensagem a = "A";
+mensagem a = "B";
+emitir a;

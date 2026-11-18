@@ -1,0 +1,2 @@
+velocidade 0;
+emitir "A";

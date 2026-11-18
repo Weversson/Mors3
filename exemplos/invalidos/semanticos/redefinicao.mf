@@ -1,0 +1,4 @@
+// O mesmo nome não pode ser declarado duas vezes.
+mensagem alerta = "SOS";
+mensagem alerta = "ECHO";
+emitir alerta;

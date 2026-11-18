@@ -1,0 +1,3 @@
+tom 20000;
+velocidade 999999;
+emitir "B";

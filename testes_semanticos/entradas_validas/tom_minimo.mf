@@ -1,0 +1,3 @@
+tom 100;
+velocidade 1;
+emitir "A";

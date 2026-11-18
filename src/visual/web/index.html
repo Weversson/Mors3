@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MorseLang — análise em tempo real</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/estilo.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="marca">
+      <span class="ponto" aria-hidden="true"></span>
+      <div>
+        <h1>MorseLang</h1>
+        <p>léxica · sintática · semântica · timeline em tempo real</p>
+      </div>
+    </div>
+    <span id="status" class="status" data-estado="ocupado">iniciando…</span>
+  </header>
+
+  <main class="layout">
+    <section class="coluna editor">
+      <div class="cabecalho-painel">
+        <h2>Código</h2>
+        <span class="dica">Ctrl+Enter analisa</span>
+      </div>
+      <textarea id="codigo" spellcheck="false" autocomplete="off"
+        autocapitalize="off" aria-label="Código MorseLang">// Uma mensagem curta para teste.
+mensagem alerta = "SOS";
+tom 600.0;
+velocidade 20;
+emitir (alerta + " AJUDA") * 2;</textarea>
+      <div class="exemplos" id="exemplos">
+        <button type="button" data-exemplo="ola">ola.mf</button>
+        <button type="button" data-exemplo="emissoes">múltiplas emissões</button>
+        <button type="button" data-exemplo="precedencia">precedência</button>
+        <button type="button" data-exemplo="acentos">acentos</button>
+        <button type="button" data-exemplo="erro">erro semântico</button>
+      </div>
+    </section>
+
+    <section class="coluna resultado">
+      <div id="erro" class="erro oculto" role="alert"></div>
+
+      <div class="cartoes">
+        <div class="cartao"><span>Tom</span><strong id="tom">—</strong><small>Hz</small></div>
+        <div class="cartao"><span>Velocidade</span><strong id="velocidade">—</strong><small>WPM</small></div>
+        <div class="cartao"><span>Emissões</span><strong id="emissoes">—</strong><small>comandos</small></div>
+        <div class="cartao"><span>Eventos</span><strong id="eventos">—</strong><small>tons/silêncios</small></div>
+        <div class="cartao"><span>Duração</span><strong id="duracao">—</strong><small>total</small></div>
+        <div class="cartao largo"><span>Texto expandido</span><strong id="texto">—</strong></div>
+      </div>
+
+      <div class="grade">
+        <article class="painel">
+          <h2>Tokens <span id="contagem-tokens" class="contagem"></span></h2>
+          <div id="tokens" class="conteudo"></div>
+        </article>
+
+        <article class="painel">
+          <h2>Símbolos <span id="contagem-simbolos" class="contagem"></span></h2>
+          <div id="simbolos" class="conteudo"></div>
+        </article>
+
+        <article class="painel largo">
+          <h2>AST</h2>
+          <div id="ast" class="conteudo arvore"></div>
+        </article>
+
+        <article class="painel largo">
+          <div class="cabecalho-painel">
+            <h2>Timeline <span id="contagem-timeline" class="contagem"></span></h2>
+            <div class="controles">
+              <button id="botao-reproduzir" type="button" class="botao-principal"
+                disabled>Reproduzir</button>
+              <button id="botao-reiniciar" type="button" disabled>Reiniciar</button>
+              <label class="volume">Volume
+                <input id="volume" type="range" min="0" max="100" value="50"
+                  aria-label="Volume da reprodução">
+              </label>
+              <span class="separador-controles" aria-hidden="true"></span>
+              <button id="baixar-morse" type="button" disabled>Baixar .morse</button>
+              <button id="baixar-wav" type="button" disabled>Baixar .wav</button>
+            </div>
+          </div>
+          <div id="timeline" class="conteudo"></div>
+          <p id="evento-atual" class="evento-atual" aria-live="polite">
+            Nenhuma timeline disponível.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

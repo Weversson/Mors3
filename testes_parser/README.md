@@ -107,6 +107,6 @@ Um JSON de AST só é permitido junto de uma entrada válida; uma expectativa de
 
 ## Limites da etapa
 
-Esta suíte não executa mensagens nem testa geração de Morse ou WAV. A aceitação de um nome não declarado ou de uma repetição por zero demonstra somente validade sintática. Resolução de nomes, limites numéricos e demais verificações semânticas pertencem à E4.
+Esta suíte não executa mensagens nem testa geração de Morse ou WAV. A aceitação de um nome não declarado ou de uma repetição por zero demonstra somente validade sintática. Resolução de nomes, limites numéricos e demais verificações semânticas são feitas pelo analisador da E4 em `src/analise_semantica`; um arquivo válido aqui não é necessariamente semanticamente válido. Use `src/semantico.py` para validar um programa completo.
 
 Os testes anteriores em `tests/` continuam disponíveis por `make test`. O corpus de arquivos desta pasta é executado pelo seu próprio orquestrador shell.
